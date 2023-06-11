@@ -5,6 +5,9 @@
 Program content of each day of the course. 
 Although I know and work with the language, I did not have an orderly learning and therefore I choose to do the basic course.
 
+# Contents 
+> Day N - Final project
+
 ## Day 1 -Schedule a name maker
 - Prints 
 - Input
@@ -16,4 +19,9 @@ Although I know and work with the language, I did not have an orderly learning a
 - Print formatting.
 
 ## Day 3 - Text parser
--
+Use of:
+- strings
+- lists
+- dictionaries
+- tuples
+- sets
