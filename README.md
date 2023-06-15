@@ -67,3 +67,6 @@ Guess a number between 1 and 100:
 >>>84
 Correct  Agus!!!
 ```
+
+## Day 5 - Game "Hangman"
+Whit pycharm, you can read de documentation with ctrl over each keyword.
