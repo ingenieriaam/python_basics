@@ -94,6 +94,8 @@ while lives >0:
             word=list(let)
             for letter in word:
                 underscores = show_updated_word(the_word, letter, underscores)
+                incorrect.append(letter)
+            print(f'incorrects letters: {incorrect}')
 
 print("Game over!")
 

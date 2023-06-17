@@ -34,39 +34,12 @@ Use of:
 - logical operators
 - match sentence
 
-### Game example
-```bash
-What is your name?
->>> Agus
-Hello  Agus, i think a number between 1 and 100 is 84. Can you guess it?
-Guess a number between 1 and 100:
->>>55
-Higher
-You have 7 attempts left
-Guess a number between 1 and 100:
->>>88
-Lower
-You have 6 attempts left
-Guess a number between 1 and 100:
->>>77
-Higher
-You have 5 attempts left
-Guess a number between 1 and 100:
->>>82
-Higher
-You have 4 attempts left
-Guess a number between 1 and 100:
->>>85
-Lower
-You have 3 attempts left
-Guess a number between 1 and 100:
->>>83
-Higher
-You have 2 attempts left
-Guess a number between 1 and 100:
->>>84
-Correct  Agus!!!
-```
 
 ## Day 5 - Game "Hangman"
 Whit pycharm, you can read de documentation with ctrl over each keyword.
+Pycharm is taken as an example but there are variants in other IDEs.
+
+- Functions
+- Methods
+- Undefined arguments
+- Random module
