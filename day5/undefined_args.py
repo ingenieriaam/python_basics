@@ -1,5 +1,8 @@
 ####################################################
 # *args and **kargs
+# The key is the symbols '' or '*'. While the words 
+# are usually 'args' and 'kwargs', they could be called 
+# anything as long as the asterisk is used as a prefix.
 
 def sum(*args):
     total = 0
