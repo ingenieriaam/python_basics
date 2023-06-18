@@ -3,8 +3,8 @@
 ####################################################
 
 from pathlib import Path
+from os import system
 import os
-
 ####################################################
 ## Functions
 def dict_recipes_creation(rpath,recipes):
@@ -122,6 +122,10 @@ op_dic = {
     6: 'Exit the program'
 }
 while op != '6':
+    if "posix" in os.name:
+        system(f"clear")
+    else:
+        system(f"cls")
     for key, value in op_dic.items():
         print(f'{key}: {value}')
     op = input('What do you want to do? \n>>> ')
@@ -139,3 +143,4 @@ while op != '6':
         case '6':
             print('See you next time')
             break
+    input('\nPress any key to continue...')
