@@ -1,6 +1,6 @@
 # Python total (in spanish)
 
-[py](https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png)
+![py](python.jpg)
 
 Program content of each day of the course. 
 Although I know and work with the language, I did not have an orderly learning and therefore I choose to do the basic course.
@@ -43,3 +43,8 @@ Pycharm is taken as an example but there are variants in other IDEs.
 - Methods
 - Undefined arguments
 - Random module
+
+## Day 6 - Recipe book
+- File management
+- Directory management
+- Portable addressing compatibility between OS
