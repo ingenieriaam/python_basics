@@ -57,9 +57,23 @@ def case2_func(recipes,rpath):
     text = input('Enter the recipe text: \n>>> ')
     print(file.write(text))
     file.close()
+    print('You have created a new recipe file!')
     
 def case3_func(recipes):
-    pass
+    cat = input('Enter a new Category name: \n>>> ')
+
+    newpath= Path(rpath,cat) 
+
+    while newpath.exists():
+        for key in recipes.keys():
+            print(f'{key}')
+        cat = input('\nRecipe already exists. Select a different name.\n>>> ')
+        newpath= Path(rpath,cat)
+
+    path = os.makedirs(newpath)
+    recipes[cat]=newpath
+    print('You have created a new category directory!')
+
 def case4_func(recipes):
     pass
 def case5_func(recipes):
