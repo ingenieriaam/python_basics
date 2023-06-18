@@ -47,4 +47,4 @@ Pycharm is taken as an example but there are variants in other IDEs.
 ## Day 6 - Recipe book
 - File management
 - Directory management
-
+- Portable addressing compatibility between OS
