@@ -57,7 +57,7 @@ def case2_func(recipes,rpath):
     text = input('Enter the recipe text: \n>>> ')
     print(file.write(text))
     file.close()
-    print('You have created a new recipe file!')
+    print('You have created a new recipe file!\n')
     
 def case3_func(recipes):
     cat = input('Enter a new Category name: \n>>> ')
@@ -72,10 +72,13 @@ def case3_func(recipes):
 
     path = os.makedirs(newpath)
     recipes[cat]=newpath
-    print('You have created a new category directory!')
+    print('You have created a new category directory!\n')
 
 def case4_func(recipes):
-    pass
+    cat = select_category(recipes)
+    recipe = select_recipe(recipes,cat)
+    os.remove(recipes[cat][recipe])
+    print('You have deleted the recipe!\n')
 def case5_func(recipes):
     pass
 def case6_func():
