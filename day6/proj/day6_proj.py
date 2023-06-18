@@ -32,7 +32,7 @@ def select_recipe(recipes,cat):
         recipe = input('Enter a recipe (textual): \n>>> ')
     return recipe
 
-def case1_func(recipes):
+def Read_a_recipe(recipes):
     cat = select_category(recipes)
     recipe = select_recipe(recipes,cat)
 
@@ -41,7 +41,7 @@ def case1_func(recipes):
     print(file.read() + '\n')
     file.close()
     
-def case2_func(recipes,rpath):
+def Create_a_recipe(recipes,rpath):
     cat = select_category(recipes)
     recipe = input('Enter a new recipe name: \n>>> ')
 
@@ -59,7 +59,7 @@ def case2_func(recipes,rpath):
     file.close()
     print('You have created a new recipe file!\n')
     
-def case3_func(recipes):
+def Create_category(recipes):
     cat = input('Enter a new Category name: \n>>> ')
 
     newpath= Path(rpath,cat) 
@@ -74,13 +74,26 @@ def case3_func(recipes):
     recipes[cat]=newpath
     print('You have created a new category directory!\n')
 
-def case4_func(recipes):
+def Delete_a_recipe(recipes):
     cat = select_category(recipes)
     recipe = select_recipe(recipes,cat)
+    while not os.path.exists(recipes[cat][recipe]):
+        print('File does not exist!\n')
+        cat = select_category(recipes)
+        recipe = select_recipe(recipes,cat)
+
     os.remove(recipes[cat][recipe])
     print('You have deleted the recipe!\n')
-def case5_func(recipes):
-    pass
+def Delete_category(recipes):
+    cat = select_category(recipes)
+    folder = Path(rpath,cat)
+    while not folder.exists():
+        print('Category does not exist!\n')
+        cat = select_category(recipes)
+    
+    os.rmdir(folder)
+    print('You have deleted the category directory!\n')
+    
 def case6_func():
     pass
 ####################################################
@@ -114,15 +127,15 @@ while op != '6':
     op = input('What do you want to do? \n>>> ')
     match op:
         case '1':
-            case1_func(recipes)
+            Read_a_recipe(recipes)
         case '2':
-            case2_func(recipes,rpath)
+            Create_a_recipe(recipes,rpath)
         case '3':
-            case3_func(recipes)
+            Create_category(recipes)
         case '4':
-            case4_func(recipes)
+            Delete_a_recipe(recipes)
         case '5':
-            case5_func(recipes)
+            Delete_category(recipes)
         case '6':
             print('See you next time')
             break
