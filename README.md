@@ -48,3 +48,18 @@ Pycharm is taken as an example but there are variants in other IDEs.
 - File management
 - Directory management
 - Portable addressing compatibility between OS
+
+## Day 7 - Bank account
+On this day the concept of object-oriented programming is introduced (OOP).
+- Class
+    - Attributes
+    - Methods
+    - Objetcs
+- Type of methods
+- Inheritance
+- Polymorphism
+- [Cohesion](https://escueladirecta-blog.blogspot.com/2021/09/cohesion-pilares-de-la-programacion.html)
+- [Abstraction](https://escueladirecta-blog.blogspot.com/2021/10/acoplamiento-pilares-de-la-programacion.html)
+- [Coupling](https://escueladirecta-blog.blogspot.com/2021/10/abstraccion-pilares-de-la-programacion.html)
+- [Encapsulation](https://escueladirecta-blog.blogspot.com/2021/10/encapsulamiento-pilares-de-la.html)
+- Special methods
