@@ -1,0 +1,6 @@
+This is a testBut, without a newline
+ Unless I purposely add it
+Or 
+with this 
+other format
+This is a test Welcome !!!
