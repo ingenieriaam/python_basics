@@ -1,10 +1,10 @@
 def welcome_add(func):
-    """
-    Takes in a single parameter `area` and calls `func(area)` to get the result which is printed along with some additional strings. 
-    This function does not return any value.
-    """
     def another_func(op):
-
+        """
+        Print the turn number and the result of calling `func` with `op`. Then print a message indicating to wait.
+        Parameters:
+            op (any): The input parameter to `func`.
+        """
         print("Su turno es el:")
         print(func(op))
         print('Wait and you will be served')

@@ -12,9 +12,10 @@ a = ''
 the generators are the ones that 
 receive the parameter from the beginning
 '''
-genPerfumeria = shiftGen('Perfumeria')
-genFarmacia   = shiftGen('Farmacia')
-genCosmeticos = shiftGen('Cosmeticos')
+generators = []
+for key,val in op_dic.items():
+     generators.append(shiftGen(val))
+
 @welcome_add
 def number_take(number):
         return number
@@ -31,15 +32,9 @@ while op != 4:
     except:
         print('\tingrese una opción valida')
         continue
-    if op == 1:
-        a = next(genPerfumeria)
-        number_take(a)
-    elif op == 2:
-        a = next(genFarmacia)
-        number_take(a)
-    elif op == 3:
-        a = next(genCosmeticos)
-        number_take(a)
-    else:
-        print('Nos vemos')
+    if op == 4:
         break
+    else:
+        a = next(generators[op-1])
+        number_take(a)
+    
