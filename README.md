@@ -63,3 +63,15 @@ On this day the concept of object-oriented programming is introduced (OOP).
 - [Coupling](https://escueladirecta-blog.blogspot.com/2021/10/abstraccion-pilares-de-la-programacion.html)
 - [Encapsulation](https://escueladirecta-blog.blogspot.com/2021/10/encapsulamiento-pilares-de-la.html)
 - Special methods
+
+## Day 8 - Shift provider (efficient)
+- Modules
+    - Collection of functions and objects that can be used in other projects
+- Packages
+    - Collection of modules that can be used in other projects.
+    - Packaged in a folder, whose characteristic, apart from containing.python files with the modules, is the presence of the **__init__.py** file
+    - It can contain sub packages.
+- Error handling.
+- Verification with PyLint (errors and styles) and Unit Test (black box style tests).
+- Decorators.
+- Generators.
