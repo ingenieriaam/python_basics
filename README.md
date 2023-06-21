@@ -75,3 +75,12 @@ On this day the concept of object-oriented programming is introduced (OOP).
 - Verification with PyLint (errors and styles) and Unit Test (black box style tests).
 - Decorators.
 - Generators.
+
+## Day 9 - Serial number finder
+Very useful modules
+- Collections
+- Os and Shutil
+- Datetime, Time and Timeits
+- Math
+- Re (Regular expressions)
+- Zipfile
