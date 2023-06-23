@@ -5,6 +5,8 @@
 Program content of each day of the course. 
 Although I know and work with the language, I did not have an orderly learning and therefore I choose to do the basic course.
 
+To activate the python environment, run the command ```pyproj\venv\Scripts\activate```
+
 # Contents 
 > Day N - Final project
 

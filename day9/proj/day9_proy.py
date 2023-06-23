@@ -29,7 +29,7 @@ print('-------\t\t ----------')
 # e.g.: Nryu-12365
 pattern = r'N\w{3}-\d{5}'
 
-path = Path('C:/Users/aortiz/Documents/python/python_basics/day9/proj/Finish_unzip/Mi_Gran_Directorio')
+path = Path('/python_basics/day9/proj/Finish_unzip/Mi_Gran_Directorio')
 
 info = {}
 init = time.time()

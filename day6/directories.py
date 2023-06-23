@@ -8,7 +8,7 @@ path = os.getcwd()
 print(path)
 
 # Change working directory
-path = os.chdir('C:\\Users\\aortiz\\Documents\\python\\python_basics')
+path = os.chdir('/')
 print(path)
 myFile = open("README.md")
 print(myFile.read())

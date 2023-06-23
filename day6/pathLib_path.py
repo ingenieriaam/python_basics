@@ -39,15 +39,15 @@ print(guide.parent)
 print(guide.parent.parent)
 print('=======================================')
 
-guide = Path(Path.home(),'Europa')
+guide = Path(Path.home(), 'Europa')
 for txt in Path(guide).glob('**/*.txt'):
     print(txt)
 
 print('=======================================')
 
-guide = Path('Europa','España','Barcelona','Sagrada Familia.txt')
+guide = Path('Europa', 'España', 'Barcelona', 'Sagrada Familia.txt')
 in_europe = guide.relative_to(Path('Europa'))
-in_spain = guide.relative_to(Path('Europa','España'))
+in_spain = guide.relative_to(Path('Europa', 'España'))
 print(in_europe)
 print(in_spain)
 

@@ -14,8 +14,8 @@ OpenZip.close() # close the zip files
 # with shutil
 import shutil
 from pathlib import Path
-origin_folder = Path('C:/Users/aortiz/Documents/python/python_basics/day8 - Package')
-dest_folder = Path('C:/Users/aortiz/Documents/python/python_basics/day9')
+origin_folder = Path('/python_basics/day8 - Package')
+dest_folder = Path('/python_basics/day9')
 dest_file = 'day8Package'
 shutil.make_archive(dest_file, 'zip', origin_folder)
 

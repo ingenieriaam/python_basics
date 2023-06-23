@@ -100,7 +100,7 @@ def case6_func():
 ## Welcome message
 print('Welcome to the Recipe book administration')
 
-rpath = Path(os.getcwd(),'Recetas')
+rpath = Path(os.getcwd(), 'Recetas')
 print(f'The recipe book path is: {rpath}')
 
 rcount = 0

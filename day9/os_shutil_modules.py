@@ -26,10 +26,10 @@ shutil.move('file.txt', 'new_file.txt') # Move file to a new location
 
 # Walk through a directory
 from pathlib import Path
-path = Path('C:/Users/aortiz/Documents/python/python_basics/day9')
+path = Path('/python_basics/day9')
 print(os.walk(path))
 
-path = Path('C:/Users/aortiz/Documents/python/python_basics/day8')
+path = Path('/python_basics/day8')
 for folder, subf, file in os.walk(path):
     print(f'in {folder}')
     print('the sub folders are:')
