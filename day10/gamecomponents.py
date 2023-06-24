@@ -44,13 +44,13 @@ class Player():
         """
         screen.blit(self.img,(x,y))
     #-------------------------------------------------------------
-    def set_x_change(self, step):
-        self.x_change = step
+    def set_x_move(self, step):
+        self.x_change += step
 
 ###########################################################
 class Enemy():
     def __init__(self,screen):
-        self.move_step = 0.3
+        self.move_step = 0.15
         self.src= Path(os.getcwd(),"xtras","enemigo.png")
         self.img= pygame.image.load(self.src)
         self.hoffset= self.img.get_height()
@@ -61,6 +61,7 @@ class Enemy():
         self.y = random.randint(50,self.win_height/2)  
         self.x_change = self.move_step  # i want to move the enemy
         self.y_change = self.hoffset/2
+        self.lives = True
     #-------------------------------------------------------------
     def ser_move_step(self,step):
         self.move_step = step
@@ -70,6 +71,11 @@ class Enemy():
         enemy_y = random.randint(50,self.win_height-2*self.hoffset)  
         self.x = enemy_x
         self.y = enemy_y
+    #-------------------------------------------------------------
+    def kill(self):
+        self.x = self.win_height*2
+        self.y = 0
+        self.lives = False
     #-------------------------------------------------------------
     def set_position(self,screen, x, y):
         """
@@ -91,7 +97,7 @@ class Bullet():
         self.x = 0
         self.y = player.x
         self.x_change = 0
-        self.y_change = 0
+        self.y_change = 1
         self.visible = False 
         self.player_ref = player
     #-------------------------------------------------------------

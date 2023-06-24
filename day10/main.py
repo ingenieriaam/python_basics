@@ -149,6 +149,7 @@ while execute:
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
                 player_x_change = 0
+    
     #--------------------------------
     # paint the screen        
     screen.blit(background_img,(0,0))
