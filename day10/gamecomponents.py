@@ -5,8 +5,6 @@ import os
 import random
 import math
 
-MOVE_STEP = 0.3
-
 class Screen():
     def __init__(self, win_width, win_height):
         self.win_width = win_width
@@ -45,6 +43,9 @@ class Player():
         The function "player" blits the image of the player onto the screen at the specified coordinates.
         """
         screen.blit(self.img,(x,y))
+    #-------------------------------------------------------------
+    def set_x_change(self, step):
+        self.x_change = step
 
 ###########################################################
 class Enemy():
@@ -57,9 +58,9 @@ class Enemy():
         self.win_width = screen.win_width
         self.win_height = screen.win_height
         self.x = random.randint(0,self.win_width-self.woffset) 
-        self.y = random.randint(50,self.win_height-2*self.hoffset)  
+        self.y = random.randint(50,self.win_height/2)  
         self.x_change = self.move_step  # i want to move the enemy
-        self.Y_change = self.hoffset/2
+        self.y_change = self.hoffset/2
     #-------------------------------------------------------------
     def ser_move_step(self,step):
         self.move_step = step
@@ -67,7 +68,8 @@ class Enemy():
     def reset(self):
         enemy_x = random.randint(0,self.win_width-self.woffset) 
         enemy_y = random.randint(50,self.win_height-2*self.hoffset)  
-        return enemy_x, enemy_y
+        self.x = enemy_x
+        self.y = enemy_y
     #-------------------------------------------------------------
     def set_position(self,screen, x, y):
         """
@@ -84,8 +86,8 @@ class Bullet():
         self.woffset= self.img.get_width()
         self.win_width = screen.win_width
         self.win_height = screen.win_height
-        self.bullet_sound = Path(os.getcwd(),"xtras","disparo.mp3")
-        self.bang_sound = Path(os.getcwd(),"xtras","Golpe.mp3")
+        self.bullet_sound_src = Path(os.getcwd(),"xtras","disparo.mp3")
+        self.bang_sound_src = Path(os.getcwd(),"xtras","Golpe.mp3")
         self.x = 0
         self.y = player.x
         self.x_change = 0
@@ -93,7 +95,19 @@ class Bullet():
         self.visible = False 
         self.player_ref = player
     #-------------------------------------------------------------
-    def shoot_bullet(self,screen,x, y):
+    def sound(self):
+        bullet_sound = mixer.Sound(self.bullet_sound_src)
+        bullet_sound.play()
+    #-------------------------------------------------------------
+    def bang_sound(self):
+        bullet_sound = mixer.Sound(self.bang_sound_src)
+        bullet_sound.play()
+    #-------------------------------------------------------------
+    def reload(self,player_y):
+        self.y = player_y
+        self.visible = False
+    #-------------------------------------------------------------
+    def shoot(self,screen,x, y):
         """
         The function "bullet" blits the image of the bullet onto the screen at the specified coordinates.
         """
