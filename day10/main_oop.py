@@ -1,9 +1,4 @@
 import pygame
-from pygame import mixer
-from pathlib import Path  
-import os
-import random
-import math
 import gamecomponents as gc
 ###########################################################
 # init pygame

@@ -86,3 +86,8 @@ Very useful modules
 - Math
 - Re (Regular expressions)
 - Zipfile
+
+## Day 10 - Space invaders
+- Pygame module
+- Challenge of moving from a linear approach to an object-oriented one
+- Real time motion control loop
