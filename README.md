@@ -5,6 +5,8 @@
 Program content of each day of the course. 
 Although I know and work with the language, I did not have an orderly learning and therefore I choose to do the basic course.
 
+To activate the python environment, run the command ```pyproj\venv\Scripts\activate```
+
 # Contents 
 > Day N - Final project
 
@@ -84,3 +86,8 @@ Very useful modules
 - Math
 - Re (Regular expressions)
 - Zipfile
+
+## Day 10 - Space invaders
+- Pygame module
+- Challenge of moving from a linear approach to an object-oriented one
+- Real time motion control loop

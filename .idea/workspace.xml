@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c297899-82b8-408b-b6b5-548b0575dd22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/day8 - Package/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/proj/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/first_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/day1/first_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/conersions.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/conersions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/day2_proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/day2_proj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/rounding.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/rounding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/day3_proy.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/day3_proy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/dictionaries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/sets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/str-prop.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/str-prop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/str_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/str_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/sub-strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/sub-strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/tuples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/comparisons.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/comparisons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/day4_proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/day4_proj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/flow_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/flow_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/iterations.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/iterations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/logic_comparisions.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/logic_comparisions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/match.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/day5_proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/day5_proj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/exercises/ej1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/exercises/ej1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/exercises/ej2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/exercises/ej2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/exercises/ej3.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/exercises/ej3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/exercises/ej4.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/exercises/ej4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/interaction_between_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/interaction_between_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/undefined_args.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/undefined_args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/create.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/create.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/directories.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/directories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/inputOutput.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/inputOutput.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/pathLib_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/pathLib_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/proj/Recetas/Pastas/Ravioles de Ricotta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day6/proj/Recetas/Pastas/Ravioles de Ricotta.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/proj/day6_proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/proj/day6_proj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/terminal_clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/terminal_clean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day6/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/test_w.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day6/test_w.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/Inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/Inheritance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/Polymorphism.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/Polymorphism.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/day7_proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/day7_proj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/special_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/special_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8 - Package/AgusPackage/considerations.md" beforeDir="false" afterPath="$PROJECT_DIR$/day8 - Package/AgusPackage/considerations.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8 - Package/AgusPackage/subPackage/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8 - Package/AgusPackage/subPackage/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8 - Package/AgusPackage/sum_subs.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8 - Package/AgusPackage/sum_subs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8 - Package/exercice.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8 - Package/exercice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/error_handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/error_handling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/generators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/proj/numeros.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/proj/numeros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/proj/principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/proj/principal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/pylint.md" beforeDir="false" afterPath="$PROJECT_DIR$/day8/pylint.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/pylint_code_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/pylint_code_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/text_change.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/text_change.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/unittest.md" beforeDir="false" afterPath="$PROJECT_DIR$/day8/unittest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/unittest_code_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/unittest_code_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/collections_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/collections_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/datetime_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/datetime_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/math_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/math_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/mi_texto_A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day9/mi_texto_A.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/mi_texto_B.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day9/mi_texto_B.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/os_shutil_modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/os_shutil_modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/proj/Finish_unzip/Instrucciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day9/proj/Finish_unzip/Instrucciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/proj/day9_proy.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/proj/day9_proy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/re_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/re_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/zipfile_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/zipfile_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_porject/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RXga3crtwmQquKQ1jUod4btNmA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aortiz\Documents\python\python_basics" />
+      <recent name="C:\Users\aortiz\Documents\python\python_basics\python_basics" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c297899-82b8-408b-b6b5-548b0575dd22" name="Changes" comment="" />
+      <created>1687401899816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687401899816</updated>
+    </task>
+    <servers />
+  </component>
+</project>
