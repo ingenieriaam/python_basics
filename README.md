@@ -91,3 +91,22 @@ Very useful modules
 - Pygame module
 - Challenge of moving from a linear approach to an object-oriented one
 - Real time motion control loop
+
+## Day 11 - Web data extractor
+You must ensure that the terms and conditions of each page are followed since some block the IP if those rules are not followed.
+
+Likewise, the rules of each country should be explored.
+
+Each code is unique per page and limited to the current state, with which generality will not be found.
+
+The web in general is defined in 3 languages:
+- __HTML__ for structure and content
+- __CSS__ for styling
+- __Javascript__ to add interactive elements
+
+## Packages
+- requests
+- lxml
+- beautifulsoup4
+
+The exploration of components of a web code is exercised.
