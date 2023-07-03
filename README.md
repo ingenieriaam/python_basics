@@ -112,3 +112,4 @@ The web in general is defined in 3 languages:
 The exploration of components of a web code is exercised.
 
 ## Day 12 - Restaurant manager
+General use of TKinter package
