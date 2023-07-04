@@ -113,3 +113,12 @@ The exploration of components of a web code is exercised.
 
 ## Day 12 - Restaurant manager
 General use of TKinter package
+
+## Day 13 - Voice assistant
+Several python packages are used to provide multiple functionalities, however, the challenge of the day is to make the wizard listen and speak.
+
+- pyttsx3 - Talk with app
+- SpeechRecognition - Voice recognition
+- pywhatkit - Open web sites
+- yfinance - Stock exchange information
+- pyjokes - Access to jokes
