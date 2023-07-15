@@ -122,3 +122,11 @@ Several python packages are used to provide multiple functionalities, however, t
 - pywhatkit - Open web sites
 - yfinance - Stock exchange information
 - pyjokes - Access to jokes
+
+## Day 14 - Attendance control by facial recognition
+
+- dlib
+- cmake
+- face-recognition
+- numpy
+- opencv-python
