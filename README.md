@@ -130,3 +130,14 @@ Several python packages are used to provide multiple functionalities, however, t
 - face-recognition
 - numpy
 - opencv-python
+
+## Day 15 - Machine learning model
+
+- numpy: numerical operations
+- pandas: datasets analysis 
+- matplotlib: visualize data
+- google colabs:
+    - [Numpy examples](https://drive.google.com/file/d/17GeyCV7Kwh60ywyLMNSS3yXCX8404t_m/view?usp=sharing)
+    - [Pandas examples](https://drive.google.com/file/d/1DDkVuMPMnM2YyW423AcOc1uqQKF-KUBy/view?usp=sharing)
+    - [Matplotlib examples](https://colab.research.google.com/drive/1wGgq9xIy2ia3zHG9_fpTgbM7vT9JaSmC?usp=sharing)
+    - [Machine learning project](https://colab.research.google.com/drive/1ftQQAFX4niQ_VDiWOqGtbNJup-AIngno?usp=sharing)
