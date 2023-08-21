@@ -153,3 +153,5 @@ Some steps require running in the general environment, but some others need to b
  - in proj_name folder: python manage.py runserver
  - python manage.py migrate
  - python manage.py startapp baseq (this create the app)
+ - python manage.py makemigrations
+ - python manage.py migrate
