@@ -141,3 +141,17 @@ Several python packages are used to provide multiple functionalities, however, t
     - [Pandas examples](https://drive.google.com/file/d/1DDkVuMPMnM2YyW423AcOc1uqQKF-KUBy/view?usp=sharing)
     - [Matplotlib examples](https://colab.research.google.com/drive/1wGgq9xIy2ia3zHG9_fpTgbM7vT9JaSmC?usp=sharing)
     - [Machine learning project](https://colab.research.google.com/drive/1ftQQAFX4niQ_VDiWOqGtbNJup-AIngno?usp=sharing)
+
+## Day 16 - To-do web application
+Some steps require running in the general environment, but some others need to be run in command prompts with administrator permissions.
+
+- Use of virtual environments
+ - pip install virtualenv
+ - virtualenv env_name
+- django
+ - django-admin startproject proj_name (with admin permissions) 
+ - in proj_name folder: python manage.py runserver
+ - python manage.py migrate
+ - python manage.py startapp baseq (this create the app)
+ - python manage.py makemigrations
+ - python manage.py migrate
