@@ -89,3 +89,9 @@ def test_while(num):
 while_dur = timeit.timeit(declaration, setup, number=1000000)
 
 print(f'Loop for: {for_dur}\n Loop while: {while_dur}')
+
+# More efficient
+num=10
+for_dur = timeit.timeit(lambda: test_for(num), setup, number=1000000)
+while_dur = timeit.timeit(lambda: test_while(num), setup, number=1000000)
+print(f'Loop for: {for_dur}\n Loop while: {while_dur}')
